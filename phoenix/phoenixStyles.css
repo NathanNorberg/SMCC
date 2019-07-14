@@ -1,0 +1,52 @@
+a:link{
+    color:#000000;
+    }
+a:visited{
+    color:#000;
+    }
+a:hover{
+    color:#ff0000; background-color: #00cccc;
+    }
+a:active{
+    color:#ff0000; background-color: #ff00cc;
+    }
+img {
+  width: 300px;
+  border-radius: 10%;
+  float: right;
+  padding-left: 15px;
+}
+
+h2 {
+  font-family: Helvetica;
+  background-color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background: #ffff00;
+  width: 922px;
+  margin: auto;
+}
+
+p {
+  font-family: Courier;
+}
+
+.profileLink {
+  font-family: Courier;
+  font-size: 18px;
+  text-align: center;
+}
+
+.iFrameContent {
+  float: right;
+  width: 600px;
+  height: 400px;
+  border: 2px green solid;
+  overflow: auto;
+  background: #484848;
+}
