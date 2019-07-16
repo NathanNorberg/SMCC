@@ -1,5 +1,6 @@
 body {
   width: 955px;
+  margin: auto;
 }
 
 section {
@@ -8,6 +9,43 @@ section {
 
 .whiteText {
   color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.button1 {
+  background-color: white;
+  border: 2px black solid;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button2 {
+  background-color: white;
+  border: none;
+  color: #C74870;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button3 {
+  background-color: #C74870;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 header {
@@ -35,17 +73,19 @@ li {
 
 .cards {
   width: 318.33px;
-
 }
 
 .card {
   width: 210px;
   height: 293px;
+  padding-left: 18%;
+  padding-right: 18%;
 }
 
 .sponsorLogo {
   width: 140px;
   height: 140px;
+  padding: 15px;
 }
 
 .quote {
@@ -64,4 +104,7 @@ footer {
 .smallLogo {
   width: 65px;
   height: 86px;
+  margin-left: 47%;
+  margin-right: 47%;
+  padding-top: 15px;
 }
