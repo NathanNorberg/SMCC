@@ -93,6 +93,15 @@ li {
   height: 351.7px;
 }
 
+.iFrameContent {
+  margin-left: 18%;
+  width: 600px;
+  height: 400px;
+  border: 2px white solid;
+  overflow: auto;
+  background: #C74870;
+}
+
 .collage {
   width: 955px;
 }
