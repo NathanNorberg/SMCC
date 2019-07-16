@@ -10,10 +10,10 @@
       <img class="headerLogo" src="./images/logo.png" alt="">
       <nav>
         <ul>
-          <li>Sponsors</li>
-          <li>Schools</li>
-          <li>Staff</li>
-          <li>Contact</li>
+          <li class="navItem">Sponsors</li>
+          <li class="navItem">Schools</li>
+          <li class="navItem">Staff</li>
+          <li class="navItem">Contact</li>
           <li><button class="button1" type="button" name="button">Donate</button></li>
         </ul>
       </nav>
@@ -22,7 +22,7 @@
       <img class="banner" src="./images/bannerImage.png" alt="">
     </section>
     <section style="background-color: #C74870; padding-bottom: 15px;">
-      <h1 class="whiteText center">Feed. Educate.</h1>
+      <h1 style="padding-top: 10px;" class="whiteText center">Feed. Educate.</h1>
       <h3 class="whiteText center">Just $20 can feed a student for 1 month.</h3>
       <div style="text-align: center;">
         <button class="button2" type="button" name="button">Donate</button>
@@ -31,31 +31,84 @@
     <section style="display: flex; padding-top: 15px;">
       <article style="width: 477.5px;" class="">
         <video style="padding-left: 10%;" width="360" height="180" controls>
-          <source src="https://" type="video/mp4">
+          <source src="./images/azBrainfood.mp4" type="video/mp4">
         </video>
       </article>
       <article style="width: 477.5px; padding-right: 10%; padding-left: 10%;" class="">
         <h3 style="color: #55aba8;">Arizona Brainfood</h3>
-        <p>is a non-profit organization that discreetly provides a backpack of food to feed hungry school children on the weekends. We hope that each child will return to school every Monday mentally aware and physically able to concentrate.</p>
+        <p>is a non-profit organization that discreetly provides a backpack of food to feed hungry school children on the weekends. We hope that each child will return to school every Monday mentally aware and physically able to concentrate.<br><br><a style="text-decoration: underline; color: #55aba8;">Play the film</a></p>
       </article>
     </section>
     <section style="background-color: #55aba8;">
       <h2 style="padding-top: 15px;" class="whiteText center">Our Progress So Far</h2>
       <section style="display: flex;">
         <article style="float: left; background-color: #55aba8;" class="cards">
+          <p class="stats"><span class="pink">115</span><br>participating schools</p>
           <img class="card" src="./images/card1.png" alt="">
-          <p></p>
         </article>
         <article style="float: left; background-color: #55aba8;" class="cards">
+          <p class="stats"><span class="pink">3,600</span><br>students per weekend</p>
           <img class="card" src="./images/card2.png" alt="">
-          <p></p>
         </article>
         <article style="float: left; background-color: #55aba8;" class="cards">
+          <p class="stats"><span class="pink">461,233</span><br>bags provided</p>
           <img class="card" src="./images/card3.png" alt="">
-          <p></p>
         </article>
       </section>
     </section>
+    <form style="margin-left: 14%; width: 650px; border:solid white 4px; padding: 15px; background-image: linear-gradient(#C74870, #d26c8c);" class="" action="index.html" method="post">
+      <fieldset>
+        <legend>Sign Up to Volunteer!</legend>
+        <div style="width: 250px; float: left;">
+          First Name:
+          <br>
+          <input type="text" name="First_Name" rows="8" cols="40" maxlength="4" placeholder="First Name"></input>
+          <br>
+          <br>
+          Email:
+          <br>
+          <textarea name="Address" rows="2" cols="30" placeholder="Your Email"></textarea>
+          <br>
+          <br>
+          Gender:
+          <br>
+          <input type="radio" name="gender" value="male"> Male</input>
+          <br>
+          <input type="radio" name="gender" value="female"> Female</input>
+          <br>
+          <br>
+          <br>
+          <input style="float: left" type="submit" onclick="alert('Thank you!')" value="Submit">
+          <button style="float: left"  type="reset" name="clear">Clear</button>
+        </div>
+        <div style="width: 200px; float: right;">
+          Phone Number:
+          <br>
+          <textarea name="Address" rows="2" cols="30" placeholder="Your Phone Number"></textarea>
+          <br>
+          <br>
+          Days Available
+          <br>
+          <input type="checkbox" name="Day1" value="Day"> Monday</input>
+          <br>
+          <input type="checkbox" name="Day2" value="Day"> Tuesday</input>
+          <br>
+          <input type="checkbox" name="Day3" value="Day"> Wednesday</input>
+          <br>
+          <input type="checkbox" name="Day4" value="Day"> Thursday</input>
+          <br>
+          <input type="checkbox" name="Day5" value="Day"> Friday</input>
+          <br>
+          <input type="checkbox" name="Day6" value="Day"> Saturday</input>
+          <br>
+          <br>
+          Create a password to save your information:
+          <br>
+          <input type="password" name="password" value="" placeholder="Password">
+          <br>
+        </div>
+      </fieldset>
+    </form>
     <section>
       <article style="float: left; width: 573px;" class="logoList">
         <h2 class="center">Our Sponsors</h2>
@@ -101,6 +154,40 @@
     <section>
       <img class="collage" src="./images/collage.png" alt="">
     </section>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="./images/brainfood1.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="./images/brainfood2.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="./images/brainfood3.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
     <footer>
       <img class="smallLogo" src="./images/smallLogo.png" alt=""><br>
       <p style="padding-bottom: 15px;" class="whiteText center">© 2016 Arizona Brainfood. All rights reserved.<br>
@@ -108,5 +195,7 @@
       Tax information for<br>
       2016 2017</p>
     </footer>
+  <script src="azBrainfood.js">
+  </script>
   </body>
 </html>
